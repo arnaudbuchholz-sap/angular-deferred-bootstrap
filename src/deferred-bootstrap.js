@@ -171,6 +171,14 @@ function bootstrap (configParam) {
   return $q.all(promises).then(handleResults, handleError);
 }
 
-window.deferredBootstrapper = {
-  bootstrap: bootstrap
-};
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    bootstrap: bootstrap
+  };
+} else {
+  window.deferredBootstrapper = {
+    bootstrap: bootstrap
+  };
+}
+
+

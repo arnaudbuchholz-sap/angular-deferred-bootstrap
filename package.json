@@ -1,5 +1,6 @@
 {
   "name": "angular-deferred-bootstrap",
+  "main": "src/deferred-bootstrap.js",
   "version": "0.1.6",
   "description": "Initialize AngularJS apps with constants loaded from the back-end",
   "homepage": "https://github.com/philippd/angular-deferred-bootstrap",
@@ -8,7 +9,6 @@
     "url": "git://github.com/philippd/angular-deferred-bootstrap"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
     "test": "./node_modules/karma/bin/karma start karma.conf.js --single-run"
   },
   "author": {
