@@ -1,7 +1,7 @@
 {
   "name": "angular-deferred-bootstrap",
   "main": "src/deferred-bootstrap.js",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Initialize AngularJS apps with constants loaded from the back-end",
   "homepage": "https://github.com/philippd/angular-deferred-bootstrap",
   "repository": {
